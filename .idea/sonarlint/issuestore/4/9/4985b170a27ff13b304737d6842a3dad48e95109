@@ -1,0 +1,3 @@
+
+xsquid:UselessImportCheck"ORemove this unused import 'org.springframework.context.annotation.Conditional'.(Ση»®ϊÿÿÿÿ
+_squid:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(θ΄†

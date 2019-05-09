@@ -1,0 +1,11 @@
+
+Vsquid:S1197+"8Move the array designator from the variable to the type.(ŠÔîÃ8ÿŠ‚»©-
+Usquid:S11978"8Move the array designator from the variable to the type.(ÓöñL8ÿŠ‚»©-
+ysquid:S3008"[Rename this field "ANONYMOUS_USERID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É¿Æ†8ÿŠ‚»©-
+vsquid:S3008"XRename this field "SYSTEM_USERID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÛÔ÷8ÿŠ‚»©-
+Tsquid:S1444"6Make this "public static ANONYMOUS_USERID" field final(É¿Æ†8ÿŠ‚»©-
+Qsquid:S1444"3Make this "public static SYSTEM_USERID" field final(ÛÔ÷8ÿŠ‚»©-
+‘"squid:ClassVariableVisibilityCheck"\Make ANONYMOUS_USERID a static final constant or non-public and provide accessors if needed.(É¿Æ†8ÿŠ‚»©-
+"squid:ClassVariableVisibilityCheck"YMake SYSTEM_USERID a static final constant or non-public and provide accessors if needed.(ÛÔ÷8ÿŠ‚»©-
+Xsquid:S1118":Add a private constructor to hide the implicit public one.(í÷ËÒ8ÿŠ‚»©-
+rsquid:S00100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„¶¢€şÿÿÿÿ8ÿŠ‚»©-

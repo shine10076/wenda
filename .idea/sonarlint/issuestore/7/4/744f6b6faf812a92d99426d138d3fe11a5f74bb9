@@ -1,0 +1,9 @@
+
+`squid:UselessImportCheck"=Remove this unused import 'javax.net.ssl.HttpsURLConnection'.(æÎº0
+_squid:S44881"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ƒ‚êã
+_squid:S4488h"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(½×Ä‡
+csquid:UselessImportCheck":Remove this unused import 'com.nowcoder.aspect.LogAspect'.(Ç–üÿÿÿÿÿ
+_squid:S4488@"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¼€Ó
+Tsquid:S38784"8Remove this array creation and simply pass the elements.(Ø»õöúÿÿÿÿ
+dsquid:S4488!"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(“ ‡¶şÿÿÿÿ
+dsquid:S4488]"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(ñÉø½üÿÿÿÿ
