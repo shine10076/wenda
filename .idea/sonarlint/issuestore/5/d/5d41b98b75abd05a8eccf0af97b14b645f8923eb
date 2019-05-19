@@ -1,9 +1,9 @@
 
-esquid:S1192)"GDefine a constant instead of duplicating this literal "ticket" 6 times.(èŸ—8ÈäÂ»©-
-dsquid:S3457A"AFormat specifiers should be used instead of string concatenation.(·×²´ûÿÿÿÿ8Óİ»©-
-hsquid:S4488!"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Éß¤Â8ñ€Ÿº©-
-dsquid:S3457m"AFormat specifiers should be used instead of string concatenation.(şà³ìùÿÿÿÿ8èÈ†¼©-
-ksquid:S4488M"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‹ÂÅ¶şÿÿÿÿ8™Åæ»©-
+msquid:S4488T"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¶íˆÔÿÿÿÿÿ8¸šó»©-
 dsquid:S1192="FDefine a constant instead of duplicating this literal "login" 5 times.(Íı‡Ç8™Åæ»©-
+hsquid:S4488!"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(Éß¤Â8ñ€Ÿº©-
+esquid:S1192)"GDefine a constant instead of duplicating this literal "ticket" 6 times.(èŸ—8ÈäÂ»©-
 isquid:S11928"KDefine a constant instead of duplicating this literal "redirect:/" 4 times.(‚áÖ8Ã£€¼©-
-msquid:S4488S"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¶íˆÔÿÿÿÿÿ8¸šó»©-
+ksquid:S4488M"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(‹ÂÅ¶şÿÿÿÿ8™Åæ»©-
+dsquid:S3457A"AFormat specifiers should be used instead of string concatenation.(·×²´ûÿÿÿÿ8Óİ»©-
+dsquid:S3457n"AFormat specifiers should be used instead of string concatenation.(şà³ìùÿÿÿÿ8èÈ†¼©-

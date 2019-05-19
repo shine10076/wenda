@@ -11,7 +11,8 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 
 /**
- * Created by nowcoder on 2016/7/10.
+ * @author shine10076
+ * @date 2019/5/9 20:44
  */
 @Aspect
 @Component
@@ -22,7 +23,10 @@ public class LogAspect {
     public void beforeMethod(JoinPoint joinPoint) {
         StringBuilder sb = new StringBuilder();
         for (Object arg : joinPoint.getArgs()) {
-            sb.append("arg:" + arg.toString() + "|");
+            if(arg!=null)
+            {
+                sb.append("arg:" + arg.toString() + "|");
+            }
         }
         logger.info("before method:" + sb.toString());
     }

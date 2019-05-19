@@ -39,3 +39,13 @@ c
 3src/main/java/com/nowcoder/service/UserService.java,4\4\44e1cd69129cf7d4498c06bfc919f28c84b5f99c
 j
 :src/main/java/com/nowcoder/controller/LoginController.java,5\d\5d41b98b75abd05a8eccf0af97b14b645f8923eb
+`
+0src/main/java/com/nowcoder/model/HostHolder.java,e\7\e792cc47d77e64a133796d538780a7ffc8caed66
+o
+?src/main/java/com/nowcoder/interceptor/PassportInterceptor.java,e\f\ef847269dca99a4a6e5f5d9f2ef2da83d4d561ec
+s
+Csrc/main/java/com/nowcoder/configuration/WendaWebConfiguration.java,2\9\291a1be84dec3bc8f0fb25e4a0bd378f58369939
+t
+Dsrc/main/java/com/nowcoder/interceptor/LoginRequiredInterceptor.java,5\3\53664f53ff00257a155cbc926d39c36b6ee16a1d
+m
+=src/main/java/com/nowcoder/controller/QuestionController.java,4\6\4651fbc050c4adf1f4031bfbd751df9ac9ab094a

@@ -47,9 +47,9 @@ public class LoginController {
                 if(rememberme)
                 {
                     /**
-                     * 如果用户勾选了记住我，设置cookie的过期时间为5天
+                     * 如果用户勾选了记住我，设置cookie的过期时间为1天
                      */
-                    cookie.setMaxAge(3600*24*5);
+                    cookie.setMaxAge(3600*24*1000);
                 }
                 response.addCookie(cookie);
                 if(StringUtils.isNotBlank(next)){
@@ -75,8 +75,9 @@ public class LoginController {
      * @return
      */
     @RequestMapping(path = {"/reglogin"}, method={RequestMethod.GET})
-    public String regloginPage(Model model)
+    public String regloginPage(Model model,@RequestParam(value="next",required = false)String next)
     {
+        model.addAttribute("next",next);
         return "login";
     }
 
@@ -94,7 +95,7 @@ public class LoginController {
                 User user = userService.selectByName(username);
                 logger.info(user.getName());
                 if (rememberme) {
-                    cookie.setMaxAge(3600 * 24 * 5);
+                    cookie.setMaxAge(3600 * 24 * 1000);
                 }
                 response.addCookie(cookie);
                 if (StringUtils.isNotBlank(next)) {
