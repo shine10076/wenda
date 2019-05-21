@@ -42,7 +42,7 @@ public class QuestionController {
             question.setCreatedDate(new Date());
             if(hostHolder.getUser() == null)
             {
-                question.setUserId(WendaUtil.ANONYMOUS_USERID);
+                return WendaUtil.getJSONString(999);
             }else {
                 question.setUserId(hostHolder.getUser().getId());
             }
