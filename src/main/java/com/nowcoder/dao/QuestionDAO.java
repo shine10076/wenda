@@ -25,4 +25,12 @@ public interface QuestionDAO {
 
     @Select({"select ", SELECT_FIELDS, " from ", TABLE_NAME, " where id=#{id}"})
     Question getById(int id);
+
+    /**
+     * 根据questionID选择问题
+     * @param qid
+     * @return
+     */
+    @Select({"select ", SELECT_FIELDS, " from ", TABLE_NAME, " where id=#{qid}"})
+    Question selectById(int qid);
 }

@@ -44,4 +44,9 @@ public class QuestionService {
         question.setContent(sensitiveService.filter(question.getContent()));
         return questionDAO.addQuestion(question)>0?question.getId():0;
     }
+
+    public Question selectById(int qid)
+    {
+        return questionDAO.selectById(qid);
+    }
 }
