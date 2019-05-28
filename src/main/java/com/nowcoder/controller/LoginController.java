@@ -40,6 +40,9 @@ public class LoginController {
             Map<String, Object> map = userService.register(username,password);
             if(map.containsKey("ticket")){
                 Cookie cookie = new Cookie("ticket", map.get("ticket").toString());
+                /**
+                 * setPath:确保Cookie在同一个服务器内共享
+                 */
                 cookie.setPath("/");
                 User user = userService.selectByName(username);
                 logger.info(user.getName());

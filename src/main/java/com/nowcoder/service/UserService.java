@@ -62,6 +62,10 @@ public class UserService {
 
         /**
          * 密码强度
+         * 因为UUID由以下三部分组成的,所以最终生成的UUID每次都不一样,用来确定数据的唯一性
+         * 1.当前日期和时间
+         * 2.时钟序列
+         * 3.全局唯一的IEEE机器识别号,如果有网卡从网卡MAC地址获得,没有网卡以其他方式获得
          */
         user = new User();
         user.setName(username);
@@ -126,7 +130,7 @@ public class UserService {
         ticket.setUserId(userId);
         Date date = new Date();
         /**
-         * 设置过期时间
+         * 设置过期时间为一天
          */
         date.setTime(date.getTime()+1000*3600*24);
         ticket.setExpired(date);
